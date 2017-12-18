@@ -35,3 +35,4 @@ STAR --runThreadN 20 \
      --readFilesIn experiment_R1.fastq.gz experiment_R2.fastq.gz \
      --readFilesCommand zcat \
      --outFileNamePrefix experiment
+# The output file experimentAligned.out.sam is the input of the next step.
