@@ -1,10 +1,10 @@
 !/bin/bash
-#download the genome data
+# download the genome data
 wget ftp://ftp.ensembl.org/pub/current_fasta/canis_familiaris/dna/Canis_familiaris.CanFam3.1.dna.toplevel.fa.gz
-#unzip Canis_familiaris.CanFam3.1.dna.toplevel.fa.gz
+# unzip Canis_familiaris.CanFam3.1.dna.toplevel.fa.gz
 gunzip Canis_familiaris.CanFam3.1.dna.toplevel.fa.gz
 wget ftp://ftp.ensembl.org/pub/release-91/gtf/canis_familiaris/Canis_familiaris.CanFam3.1.91.gtf.gz
-#unzip Canis_familiaris.CanFam3.1.91.gtf.gz
+# unzip Canis_familiaris.CanFam3.1.91.gtf.gz
 gunzip Canis_familiaris.CanFam3.1.91.gtf.gz
 
 # STAR index
