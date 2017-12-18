@@ -1,0 +1,11 @@
+# from VEP, I download the results in txt format, which is EXCEL friendly. The txt  format annotation file doesn't provide reference allels and 
+# has missing allel information. I use vcf format annotation file as reference to fill in the missing information.
+
+grep "missense_variant" Only_D_annotated.txt > missense_variant.txt
+grep "frameshift_variant" Only_D_annotated.txt > frameshift_variant.txt
+grep "inframe_insertion" Only_D_annotated.txt > inframe_insertion.txt
+grep "inframe_deletion" Only_D_annotated.txt >  inframe_deletion.txt
+
+# combine all the files together
+cat missense_variant.txt frameshift_variant.txt inframe_insertion.txt infrmae_deletion.txt > nonsynonymous.txt 
+
