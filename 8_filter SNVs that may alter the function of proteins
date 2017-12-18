@@ -9,3 +9,7 @@ grep "inframe_deletion" Only_D_annotated.txt >  inframe_deletion.txt
 # combine all the files together
 cat missense_variant.txt frameshift_variant.txt inframe_insertion.txt infrmae_deletion.txt > nonsynonymous.txt 
 
+# count number of proteins affected
+sort gene_name.txt | uniq > unique.txt
+
+
