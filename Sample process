@@ -1,0 +1,10 @@
+# To find out the SNVs that are only presented in the deseased dogs. we combine all the diseased dogs RNA-seq data as one group
+# and all the health dogs RNA-seq data as another group.
+# first separate experiment group and control group into two folders
+# next combine the reads together
+# In the experiment group folder
+cat *R1.fastq.gz > experiment_R1.fastq.gz
+cat *R2.fastq.gz > experiment_R2.fastq.gz
+# In the control group folder
+cat *R1.fastq.gz > control_R1.fastq.gz
+cat *R2.fastq.gz > control_R2.fastq.gz
