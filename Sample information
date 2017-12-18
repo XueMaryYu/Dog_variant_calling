@@ -1,0 +1,38 @@
+# Below are all the sample names. The number 3 or 6 indicates time point (3 = 3 month of age;6 = 6 months of age;cs = 6). 
+# Slow progression group includes Napoleon, Jane, Summer;
+# Fast progression group includes Hickory, Dorothy, Cilantro;
+# Controls (unaffected) include Heisenberg, Pedro, and Pinkman.
+Cilantro3_I16_CCGTCC_R1
+Cilantro3_I16_CCGTCC_R2
+Cilantro_cs_I11_GGCTAC_R1
+Cilantro_cs_I11_GGCTAC_R2
+Dorothy3_I5_ACAGTG_R1
+Dorothy3_I5_ACAGTG_R2
+Dorothy_cs_I12_CTTGTA_R1
+Dorothy_cs_I12_CTTGTA_R2
+Heisenberg3_I13_AGTCAA_R1
+Heisenberg3_I13_AGTCAA_R2
+Heisenberg6_I15_ATGTCA_R1
+Heisenberg6_I15_ATGTCA_R2
+Hickory3_I1_ATCACG_R1
+Hickory3_I1_ATCACG_R2
+Hickory6_I7_CAGATC_R1
+Hickory6_I7_CAGATC_R2
+Jane3_I10_TAGCTT_R1
+Jane3_I10_TAGCTT_R2
+Jane6_I3_TTAGGC_R1
+Jane6_I3_TTAGGC_R2
+Napoleon3_I6_GCCAAT_R1
+Napoleon3_I6_GCCAAT_R2
+Napoleon_cs_I8_ACTTGA_R1
+Napoleon_cs_I8_ACTTGA_R2
+Pedro3_I2_CGATGT_R1
+Pedro3_I2_CGATGT_R2
+Pinkman3_I14_AGTTCC_R1
+Pinkman3_I14_AGTTCC_R2
+Pinkman6_I18_GTCCGC_R1
+Pinkman6_I18_GTCCGC_R2
+Summer3_I4_TGACCA_R1
+Summer3_I4_TGACCA_R2
+Summer6_I9_GATCAG_R1
+Summer6_I9_GATCAG_R2
