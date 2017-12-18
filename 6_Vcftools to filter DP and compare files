@@ -9,5 +9,5 @@ tabix -p vcf Eoutput1_filtered.vcf.recode.vcf.gz
 bgzip Coutput1_filtered.vcf.recode.vcf
 tabix -p vcf Coutput1_filtered.vcf.recode.vcf.gz
 
-# outputs SNP positions present in diseased grop but absent from control
+# outputs SNP positions present in diseased dogs but absent from control
 vcf-isec -c Eoutput1_filtered.vcf.recode.vcf.gz Coutput1_filtered.vcf.recode.vcf.gz| bgzip -c > Only_D.vcf.gz
