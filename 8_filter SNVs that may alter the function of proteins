@@ -11,5 +11,6 @@ cat missense_variant.txt frameshift_variant.txt inframe_insertion.txt infrmae_de
 
 # count number of proteins affected
 sort gene_name.txt | uniq > unique.txt
+wc -l unique.txt
 
 
