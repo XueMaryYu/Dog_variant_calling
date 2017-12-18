@@ -1,0 +1,12 @@
+# Split'N'Trim and reassign mapping qualities
+java -jar GenomeAnalysisTK.jar -T SplitNCigarReads -R Canis_familiaris.CanFam3.1.dna.toplevel.fa -I Ededupped.bam -o Esplit.bam 
+-rf ReassignOneMappingQuality -RMQF 255 -RMQT 60 -U ALLOW_N_CIGAR_READS
+
+# Variant calling
+java -jar GenomeAnalysisTK.jar -T HaplotypeCaller -R Canis_familiaris.CanFam3.1.dna.toplevel.fa -I Esplit.bam -dontUseSoftClippedBases 
+-stand_call_conf 20.0 -o Eoutput.vcf
+
+# Variant filtering
+java -jar GenomeAnalysisTK.jar -T VariantFiltration -R Canis_familiaris.CanFam3.1.dna.toplevel.fa -V Eoutput.vcf -window 35 -cluster 3 
+-filterName FS -filter "FS > 30.0" -filterName QD -filter "QD < 2.0" -o Eoutput1.vcf 
+
