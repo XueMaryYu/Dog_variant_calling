@@ -1,0 +1,4 @@
+# Add read groups, sort, mark duplicates, and create index
+java -jar picard.jar AddOrReplaceReadGroups I=experimentAligned.out.sam  O=Erg_added_sorted.bam SO=coordinate RGID=id RGLB=library RGPL=platform RGPU=machine RGSM=sample 
+java -jar picard.jar MarkDuplicates I=Erg_added_sorted.bam O=Ededupped.bam  CREATE_INDEX=true VALIDATION_STRINGENCY=SILENT M=output.metrics
+
