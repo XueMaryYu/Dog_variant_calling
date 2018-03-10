@@ -1,2 +1,2 @@
 # Dog_variant_calling
-The analysis listed here mostly uses experiment group as example.
+The analysis is to find nonsynonymous SNPs in coding regions that are unique in experiment groups by using RNA-seq data.
